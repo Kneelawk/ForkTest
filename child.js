@@ -14,4 +14,6 @@ function notifyMainProcess() {
   setTimeout(notifyMainProcess, 1000);
 }
 
+console.log('Child process started.');
+
 setTimeout(notifyMainProcess, 1000);
